@@ -1,0 +1,475 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400;500;600;700&family=Raleway:wght@500&display=swap');
+
+
+
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    background-color: #131A2F;
+    /* margin: 50px; */
+    width: 90%;
+    margin:0px auto ;
+    
+
+}
+.svgs{
+    
+    color: #FE435B;
+    border: 1px solid red;
+} 
+
+.fourth{
+    color: aliceblue;
+    padding: 40px;
+    align-items: center;
+    
+}
+.fifth{
+    font-size: 20px;
+    font-weight: 200px;
+}
+.sixth{
+    font-size: 10px;
+    font-weight: 100px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    gap:50px;
+    
+}
+.image {
+    height: 100%;
+    width: 100%;
+}
+.container{
+    background-image: url('../IMAGE/grass.jpg');
+    height: 600px;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-position: center;
+    width: 100%;
+    padding-top: 80px;
+
+}
+.discover{
+    position: relative;
+    height: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.d{
+    position: absolute;
+    font-size: 300px;
+    font-family: 'Raleway', sans-serif;
+font-weight: 900;
+
+    color: rgba(255, 163, 97, 0.6);
+}
+.e{
+    position: relative;
+  z-index: 1;
+  margin-top: 20px;
+  font-size: 90px;
+    color: aliceblue;
+}
+.find{
+   background-image: url('../IMAGE/leaves.jpg');
+   background-size: cover;
+    height: 300px;
+    background-position: bottom;
+    width: 100%;
+}
+.the{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    padding: 50px;
+}
+.f{
+    display: flex;
+    width: fit-content;
+    margin: 0px auto;
+    /* justify-content: space-evenly; */
+    align-items: flex-end;
+    color: white;
+    gap: 20px;
+}
+.bo{
+    border: 1px solid white;
+    height: 30px;
+    width: 200px;
+}
+/* .dest div{
+    font-size: 24px;
+} */
+ #name{
+     width: 300px; 
+     height: 35px;
+     background-color: transparent;
+     border: 1px solid lightgray;
+} 
+
+#min{
+    width: 130px;
+    height: 35px;
+    background-color: transparent;
+     border: 1px solid lightgray;
+
+}
+.fi{
+    height: 40px;
+    width: 100px;
+    background-color: #FE435B;
+    border: none;
+    color: white;
+
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 90px;
+    }
+
+.europe{
+ font-size: 40px;
+}
+.take{
+font-size: 30pxs;
+padding: 20px;
+font-weight: 100;
+color: gray;
+}
+.photos{
+    display: flex;
+    gap: 20px;
+    margin: 45px
+}
+.from{
+    height: 350px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 12px;
+    color: white;
+    padding: 20px;
+
+}
+
+#from{
+    background-image: url(../IMAGE/top_1.webp);
+    background-size: cover;
+    background-position: center;
+}
+#river{
+    background-image: url(../IMAGE/top_2.webp);
+    background-size: cover;
+    background-position: center;
+}
+#paris{
+    background-image: url(../IMAGE/top_3.webp);
+    background-size: cover;
+    background-position: center;
+}
+#france{
+    background-image: url(../IMAGE/top_4.webp);
+    background-size: cover;
+    background-position: center;
+}
+.hi{
+    font-size: 25px;
+}
+
+.one{
+    display: flex;
+    background-image: url(../IMAGE/sea.avif);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+   /* gap:30px; */
+   justify-content: center;
+   align-items: center;
+
+    
+}
+ .two{
+border: 1px solid red;
+background-color:rgba(255, 63, 108, 0.8);
+font-size: 20px;
+color: white;
+padding: 50px;
+}
+.both{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    /* flex-direction: column; */
+    width: 80%;
+height: 400px;
+ margin: 0px auto;
+
+} 
+
+
+.mal{
+font-weight: 800;
+}
+
+.percent{
+ font-size: 90px;
+}
+.minute{
+    font-size: 50px;
+}
+.lorem{
+    font-size: 15px;
+    text-align: center;
+}
+.see{
+    
+    align-items: center;
+    /* border: 1px solid red; */
+    height: 30px;
+    width: 120px;
+    text-align: center;
+    margin:20px 0px 0px 100px ;
+    background-color: #131A2F;
+    justify-content: center;
+    padding: 12px;
+
+    
+}
+
+
+.trip{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding-top: 90px; */
+    position: relative;
+    
+}
+.video{
+    position: absolute;
+    top: 20%;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    width: fit-content;
+    margin: 0px auto;
+}
+.day{
+    font-size: 40px;
+    font-weight: 700;
+    color: black;
+}
+.by{
+color: black;
+font-size: 15px;
+font-weight: 500;
+text-align: center;
+
+}
+
+.hello{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 90px;
+}
+.yes{
+    font-size: 40px;
+}
+.mine{
+    font-size: 30pxs;
+    padding: 20px;
+    font-weight: 100;
+    color: gray;
+}
+.pictures{
+    display: flex;
+    /* justify-content: space-between;
+    align-items: center; */
+    /* background-color: aqua; */
+    margin: 49px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 25px;
+
+}
+.ab{
+     height: 150px;
+    /* width: 90%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: white;
+    padding: 20px;
+}
+#ab{
+    background-image: url(../IMAGE/popular_1.webp);
+    background-size: cover;
+    background-position: center;
+}
+#ef{
+    background-image: url(../IMAGE/popular_2.webp);
+    background-size: cover;
+    background-position: center;
+}
+#gh{
+    background-image: url(../IMAGE/popular_3.webp);
+    background-size: cover;
+    background-position: center;
+}
+#ij{
+    background-image: url(../IMAGE/popular_4.webp);
+    background-size: cover;
+    background-position: center;
+}
+#kl{
+    background-image: url(../IMAGE/popular_5.webp);
+    background-size: cover;
+    background-position: center;
+}
+#mn{
+    background-image: url(../IMAGE/popular_6.webp);
+    background-size: cover;
+    background-position: center;
+}
+#op{
+    background-image: url(../IMAGE/popular_7.webp);
+    background-size: cover;
+    background-position: center;
+}
+#qr{
+    background-image: url(../IMAGE/popular_8.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.st{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 90px;   
+}
+
+.uv{
+    font-size: 40px;
+
+}
+.wx{
+    font-size: 30pxs;
+    padding: 20px;
+    font-weight: 100;
+    color: gray;
+}
+.wallpaper{
+    display: flex;
+    /* margin: 49px; */
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    gap: 10px;
+    
+}
+.visit{
+  height: 400px;
+  /* background-color: blueviolet; */
+  color: white;
+  /* width: 100%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  font-weight: 300;
+  font-size: 40px;
+  
+}
+#visit{
+    background-image: url(../IMAGE/bali.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#yz{
+    background-image: url(../IMAGE/india.jpg);
+    background-position: center;
+    background-size: cover;
+   
+}
+#abc{
+    background-image: url(../IMAGE/paris.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+#def{
+    background-image: url(../IMAGE/thailand.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#ghi{
+    background-image: url(../IMAGE/sea.avif);
+    background-position: center;
+    background-size: cover;
+}
+
+.jkl{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 90px;  
+    background-image: url(../IMAGE/BOAT.jpg);
+    background-position: bottom;
+    background-size: cover;
+    height: 300px; 
+    width: 102%;
+    gap: 30px;
+}
+.mno{
+    font-size: 40px;
+    display: flex;
+    width: fit-content;
+    margin: 0px auto;
+    /* justify-content: space-evenly; */
+    align-items: flex-end;
+    color: white;
+    gap: 0px;
+    
+}
+#email{
+    width: 600px; 
+     height: 45px;
+     background-color: transparent;
+     border: 1px solid black;
+}
+.table{
+    display: flex;
+    gap: 20px;
+
+}
+.sub{
+    width: 160px; 
+    height: 18px;
+    background-color: red;
+    border: none;
+    /* display: flex;
+    justify-content: center; */
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    color: white;
+}
