@@ -86,6 +86,10 @@
      color: white;
      gap: 20px;
  }
+ .nav a{
+    color: white;
+    text-decoration: none;
+ }
  .bo{
      border: 1px solid white;
      height: 30px;

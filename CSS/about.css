@@ -52,6 +52,10 @@
     color: white;
     
 }
+.nav a{
+    color: white;
+    text-decoration: none;
+}
 .find{
     background-image: url('../IMAGE/leaves.jpg');
     background-size: cover;
