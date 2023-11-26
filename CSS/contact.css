@@ -1,0 +1,88 @@
+.main{
+    display: flex;
+    justify-content: space-between;
+    background-color: #131A2F;
+    /* margin: 50px; */
+    width: 90%;
+    margin:0px auto ;
+    
+
+}
+.svgs{
+    
+    color: #FE435B;
+    border: 1px solid red;
+} 
+
+.fourth{
+    color: aliceblue;
+    padding: 40px;
+    align-items: center;
+    
+}
+.fifth{
+    font-size: 20px;
+    font-weight: 200px;
+}
+.sixth{
+    font-size: 10px;
+    font-weight: 100px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    gap:50px;
+    
+}
+.image {
+    height: 100%;
+    width: 100%;
+}
+.container{
+    background-image: url('../IMAGE/walk.jpg');
+    height: 400px;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-position: center;
+    width: 100%;
+    padding-top: 80px;
+    
+
+}
+.me{
+    
+    /* margin: 50px; */
+    width: 90%;
+    margin:0px auto ;
+    padding: 30px;
+    font-size: 30px;
+    color: white;
+   
+}
+.find{
+    background-image: url('../IMAGE/leaves.jpg');
+    background-size: cover;
+     height: 300px;
+     background-position: bottom;
+     width: 90%;
+     margin: 0px auto; ;
+     
+ }
+ .the{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: white;
+     font-size: 30px;
+     padding: 50px;
+ }
+ .f{
+     display: flex;
+     width: fit-content;
+     margin: 0px auto;
+     /* justify-content: space-evenly; */
+     align-items: flex-end;
+     color: white;
+     gap: 20px;
+ }

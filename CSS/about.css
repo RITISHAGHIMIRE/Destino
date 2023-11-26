@@ -1,0 +1,284 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400;500;600;700&family=Montserrat:wght@200&family=Raleway:wght@900&display=swap');
+
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    background-color: #131A2F;
+    /* margin: 50px; */
+    width: 90%;
+    margin:0px auto ;
+}
+.fourth{
+    color: aliceblue;
+    padding: 40px;
+    align-items: center;
+    
+}
+.fifth{
+    font-size: 20px;
+    font-weight: 200px;
+}
+.sixth{
+    font-size: 10px;
+    font-weight: 100px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    gap:50px;
+    
+}
+.container{
+    background-image: url('../IMAGE/tyang.jpg');
+    height: 550px;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-position: center;
+    width: 100%;
+   
+
+}
+.discover{
+   
+     display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin:0px auto ;
+    padding: 30px;
+    font-size: 30px;
+    color: white;
+    
+}
+.find{
+    background-image: url('../IMAGE/leaves.jpg');
+    background-size: cover;
+     height: 300px;
+     background-position: bottom;
+     width: 90%;
+    margin: 0px auto;
+    margin-top: 90px;
+     
+ }
+ .the{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: white;
+     font-size: 30px;
+     padding: 50px;
+ }
+ .f{
+     display: flex;
+     width: fit-content;
+     margin: 0px auto;
+     /* justify-content: space-evenly; */
+     align-items: flex-end;
+     color: white;
+     gap: 20px;
+ }
+ .bo{
+     border: 1px solid white;
+     height: 30px;
+     width: 200px;
+ }
+ /* .dest div{
+     font-size: 24px;
+ } */
+  #name{
+      width: 300px; 
+      height: 35px;
+      background-color: transparent;
+      border: 1px solid lightgray;
+ } 
+ 
+ #min{
+     width: 130px;
+     height: 35px;
+     background-color: transparent;
+      border: 1px solid lightgray;
+ 
+ }
+ .fi{
+     height: 40px;
+     width: 100px;
+     background-color: #FE435B;
+     border: none;
+     color: white;
+ 
+ }
+
+ .top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15%;
+    }
+
+.europe{
+ font-size: 40px;
+}
+.take{
+font-size: 30pxs;
+padding: 20px;
+font-weight: 100;
+color: gray;
+}
+.sabai{
+    display: flex;
+    padding: 20px;
+    margin: 25px;
+    gap: 30px;
+    
+}
+.chitra{
+    background-image: url('../IMAGE/sea.avif');
+    background-size: cover;
+     height: 285px;
+     background-position: bottom;
+     width: 100%;
+}
+.sit{
+
+width: 100%; 
+}
+.dolor{
+    font-size: 16px;
+font-family: 'Montserrat', sans-serif;
+}
+.more{
+    background-color: #EB334A;
+    color: bisque;
+    height: 15px;
+    width: 100px;
+    padding: 15px;
+    margin-top: 90px;
+
+}
+.down{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding-top: 20px; */
+    background-image: url(../IMAGE/mountain.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+}
+.nepal{
+    font-size: 30px;
+    color: white;
+}
+.give{
+    font-size: 30pxs;
+padding: 20px;
+font-weight: 100;
+color:rgb(72, 65, 65);
+}
+.copy{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    color: white;
+}
+.all{
+    display: flex;
+   gap: 90px;
+    padding-top: 90px;
+}
+.ek{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.naam{
+    font-size: 40px;
+    font-weight: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.climb{
+    font-size: 20px;
+}
+.weekend{
+    display:flex ;
+    gap: 20px;
+    padding-top: 50px;
+    margin: 30px;
+   
+}
+.trip{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.fun{
+    font-size: 30px;
+}
+
+.adip{
+    font-size: 20px;
+    color: gray;
+}
+
+.elit{
+    font-size: 15px;
+}
+.jkl{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 90px;  
+    background-image: url(../IMAGE/BOAT.jpg);
+    background-position: bottom;
+    background-size: cover;
+    height: 300px; 
+    width: 102%;
+    gap: 30px;
+}
+.mno{
+    font-size: 40px;
+    display: flex;
+    width: fit-content;
+    margin: 0px auto;
+    /* justify-content: space-evenly; */
+    align-items: flex-end;
+    color: white;
+    gap: 0px;
+    
+}
+#email{
+    width: 600px; 
+     height: 45px;
+     background-color: transparent;
+     border: 1px solid black;
+}
+.table{
+    display: flex;
+    gap: 20px;
+
+}
+.sub{
+    width: 160px; 
+    height: 18px;
+    background-color: #FE364A;
+    border: none;
+    /* display: flex;
+    justify-content: center; */
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    color: white;
+}
