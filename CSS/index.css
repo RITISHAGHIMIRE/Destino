@@ -3,6 +3,7 @@
 body{
     margin: 0px;
     padding: 0px;
+    /* background-color: green; */
 }
 
 
@@ -31,7 +32,7 @@ body{
 
 .fourth{
     color: aliceblue;
-    padding: 20px;
+    /* padding: 20px; */
  
     
 }
@@ -499,16 +500,16 @@ text-align: center;
 /* res */
 @media (max-width:480px){
     .container{
-        height: 400px;
-        width: 100%;
-        
+        height: 300px;
+        width: 100vw;
     }
     .main{
         display: flex;
         align-items: center;
         color: white;
-        margin: 00px;
+        margin: 0px;
         width: 100%;
+        height: 80px;
         top: 0px;
     
         
@@ -517,7 +518,8 @@ text-align: center;
         display: none;
     }
     .hamb{
-        display: block;
+        /* display: none; */
+        display: flex;
       
     }
     .discover{
@@ -538,29 +540,24 @@ text-align: center;
     }
     .e{
       font-size: 20px;
-      /* display: none; */
     }
     
         .find{
            
              height: 520px;
-             
     }
     .the{
        
         font-size: 25px;
        
-       
     }
     .f{
         
         flex-direction: column;
-       
     }
     #min{
         width: 300px;
         height: 35px;
-        
     
     
     }
@@ -618,7 +615,6 @@ text-align: center;
         flex-direction: column;
         width: 58%;
          height: 700px;
-         /* display: none; */
         
     
     
@@ -645,7 +641,6 @@ text-align: center;
             font-size: 25px;
             position: relative;
             left: 15%;
-            
         }
         .lorem{
             
@@ -654,7 +649,6 @@ text-align: center;
             position: relative;
             left: 2%;
             padding: 10px;
-          
         }
         .see{
         
@@ -691,10 +685,8 @@ text-align: center;
 color: black;
 font-size: 12px;
 font-weight: 400;
-
 }
 .hello{
-   
 }
 
 .yes{
@@ -722,10 +714,9 @@ font-weight: 400;
   
    color: white;
    padding: 10px;
-   font-size: 36px;
+   font-size: 36px; 
 }
 .st{
-  
 }
 .wallpaper{
     display: flex;
@@ -735,7 +726,6 @@ font-weight: 400;
     grid-template-columns: 20% 20% 20% 20% 20%;
     width: 100%;
     gap: 0px;
-    
     
 }
 .visit{ 
@@ -762,13 +752,11 @@ font-weight: 400;
     #email{
         width: 400px; 
          height: 45px;
-        
     }
     .table{
         display: flex;
         gap: 20px;
         flex-direction: column;
-    
     }
     .sub{
         width: 100px; 
