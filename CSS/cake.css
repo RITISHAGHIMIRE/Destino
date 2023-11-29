@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Dancing+Script:wght@500&family=Edu+TAS+Beginner:wght@400;500;600;700&family=Ephesis&family=Montserrat:wght@200&family=Pacifico&family=Raleway:wght@900&family=Tangerine:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Dancing+Script:wght@500&family=Edu+TAS+Beginner:wght@400;500;600;700&family=Ephesis&family=Montserrat:wght@200&family=Pacifico&family=Quicksand:wght@300&family=Raleway:wght@900&family=Tangerine:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Dancing+Script:wght@500&family=Edu+TAS+Beginner:wght@400;500;600;700&family=Ephesis&family=Montserrat:wght@200&family=Pacifico&family=Quicksand:wght@300&family=Raleway:wght@900&family=Tangerine:wght@700&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300&family=Cedarville+Cursive&family=Montserrat:wght@200&family=Pacifico&family=Quicksand:wght@300&family=Raleway:wght@900&family=Tangerine:wght@700&family=Ubuntu:wght@300&display=swap');
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.thuli{
+    background-color: black;
+}
+
+.main{
+border: 2px solid black ;
+height: 70px;
+display: flex;
+align-items: end;
+justify-content:space-between;
+width: 95%;
+margin: 0px auto;
+background-color: black;
+}
+.one{
+    display: flex;
+    gap: 20px;
+}
+.hamb{
+    display: none;
+}
+
+.facebook{
+    color: white;
+}
+.instagram{
+    color: white;
+}
+.twitter{
+    color: white;
+}
+.two{
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    color: #E2B44B;
+
+}
+.three{
+    color: #E2B44B;
+    border: 1px solid #E2B44B;
+    height: 35px;
+    width: 150px;
+    font-size: 16px;
+   
+}
+.call{
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    position:relative ;
+    right: 10%;
+}
+.main2{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    border: 2px solid black;
+    height: 70px;
+    background-color: black;
+    color: white;
+    gap: 30px;
+    font-size: 20px;
+}
+.container{
+    background-image: url(../IMAGE/hey.jpg);
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    gap: 30px;
+
+}
+.health{
+    color: white;
+    font-size: 40px;
+    font-weight: 500px;
+    display: flex;
+    justify-content: flex-end;
+    width: 30%;
+    font-family: 'Quicksand', sans-serif;
+    position: relative;
+    left: 10%;
+    
+}
+.order{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+    border: 2px solid #E2B44B;
+    width: 15%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 10%;
+    background-color: #E2B44B;
+    
+}
+.four{
+    background-color: black;
+}
+
+.this{
+    color: white;
+    font-size: 46px;
+    width:45%;
+    font-family: 'Advent Pro', sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 27%;
+padding-top: 70px;
+font-weight: 100;
+
+}
+.six{
+    display: flex;
+    padding-top: 30px;
+    width: 80%;
+    justify-content: center;
+    text-align: center;
+   margin: 0px auto;
+}
+.seven{
+    
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+gap: 40px;
+    
+    
+}
+.is{
+    font-size: 36px;
+    font-family: 'Advent Pro', sans-serif;
+    color: #E2B44B;
+    
+}
+.five{
+    color: white;
+   
+    
+}
+.amet{
+    color: white;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+gap: 40px;
+    
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+.pic{
+    color: white;
+    background-image: url(../IMAGE/about1.webp);
+    height: 300px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+
+
+
+/* responsive */
+@media (max-width:480px){
+
+
+.main{
+
+display: flex;
+align-items: center;
+
+}
+.one{
+    display: none;
+}
+.hamb{
+    display: flex;
+    color: black;
+    justify-content: flex-end;
+    font-size: 18px;
+    font-weight: 200px;
+    border: 2px solid gray;
+    background-color: gray;
+    
+}
+
+.two{
+    font-size: 30px;
+
+}
+.three{
+    display: none;
+  
+   
+}
+
+.main2{
+    display: none;
+  
+}
+.container{
+
+        height: 400px;
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+    
+}
+.health{
+   
+    font-size: 25px;
+    font-weight: 300px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 85%;
+    left: 2%;
+
+}
+.order{
+    font-size: 16px;
+    font-weight: bold;
+    border: 4px solid black;
+    width: 35%;
+    height: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 1%;
+
+}
+.four{
+    background-color: black;
+}
+
+.this{
+    
+    font-size: 26px;
+    width:70%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 15%;
+
+
+
+}
+.six{
+   
+    display: flex;
+    flex-direction: column;
+   
+}
+.seven{
+gap: 20px;
+    
+    
+}
+.is{
+    font-size:20px;
+    
+    
+}
+.five{
+    color: white;
+   
+    
+}
+.amet{
+    
+gap: 20px;
+    
+    font-size: 14px;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+.pic{
+    color: white;
+    background-image: url(../IMAGE/about1.webp);
+    height: 200px;
+   margin-top: 30px;
+
+}
+
+
+
+}
