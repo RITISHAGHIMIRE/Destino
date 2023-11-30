@@ -518,9 +518,7 @@ text-align: center;
     
         
     }
-    .fourth{
-        /* padding: 1px; */
-    }
+    
     .nav{
         display: none;
     }
@@ -668,15 +666,6 @@ text-align: center;
             
         }
 
-    .trip{
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-    position: relative; */
-    
-}
 .video{
     position: absolute;
     top: 20%;
@@ -696,18 +685,12 @@ color: black;
 font-size: 12px;
 font-weight: 400;
 }
-.hello{
-}
+
 
 .yes{
     font-size: 30px;
 }
-.mine{
-    /* font-size: 30pxs;
-    padding: 20px;
-    font-weight: 100;
-    color: gray; */
-}
+
 .pictures{
     display: flex;
     flex-direction: column;
@@ -726,8 +709,7 @@ font-weight: 400;
    padding: 10px;
    font-size: 36px; 
 }
-.st{
-}
+
 .wallpaper{
     display: flex;
    
