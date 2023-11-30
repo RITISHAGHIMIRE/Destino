@@ -510,12 +510,16 @@ text-align: center;
         align-items: center;
         color: white;
         margin: 0px;
-        width: 100%;
+        width: 80%;
         height: 80px;
         padding: 0px 0px;
         top: 0px;
+       /* justify-content: center; */
     
         
+    }
+    .fourth{
+        /* padding: 1px; */
     }
     .nav{
         display: none;
@@ -528,6 +532,7 @@ text-align: center;
       
     }
     .discover{
+        /* padding-left: 15px; */
         height: 100%;
         width: 100%;
         margin: 0px;

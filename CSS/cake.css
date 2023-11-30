@@ -4,63 +4,72 @@
 @import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300&family=Cedarville+Cursive&family=Montserrat:wght@200&family=Pacifico&family=Quicksand:wght@300&family=Raleway:wght@900&family=Tangerine:wght@700&family=Ubuntu:wght@300&display=swap');
 
 
-body{
+body {
     margin: 0px;
     padding: 0px;
 }
-.thuli{
+
+.thuli {
     background-color: black;
 }
 
-.main{
-border: 2px solid black ;
-height: 70px;
-display: flex;
-align-items: end;
-justify-content:space-between;
-width: 95%;
-margin: 0px auto;
-background-color: black;
+.main {
+    border: 2px solid black;
+    height: 70px;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    width: 95%;
+    margin: 0px auto;
+    background-color: black;
 }
-.one{
+
+.one {
     display: flex;
     gap: 20px;
 }
-.hamb{
+
+.hamb {
     display: none;
 }
 
-.facebook{
+.facebook {
     color: white;
 }
-.instagram{
+
+.instagram {
     color: white;
 }
-.twitter{
+
+.twitter {
     color: white;
 }
-.two{
+
+.two {
     font-family: 'Dancing Script', cursive;
     font-size: 50px;
     color: #E2B44B;
 
 }
-.three{
+
+.three {
     color: #E2B44B;
     border: 1px solid #E2B44B;
     height: 35px;
     width: 150px;
     font-size: 16px;
-   
+
 }
-.call{
+
+.call {
     display: flex;
-    justify-content:end;
+    justify-content: end;
     align-items: center;
-    position:relative ;
+    position: relative;
     right: 10%;
 }
-.main2{
+
+.main2 {
     display: flex;
     justify-content: center;
     align-items: end;
@@ -71,20 +80,22 @@ background-color: black;
     gap: 30px;
     font-size: 20px;
 }
-.container{
+
+.container {
     background-image: url(../IMAGE/hey.jpg);
     height: 500px;
     width: 100%;
     display: flex;
     flex-direction: column;
-justify-content: center;
-    background-size:cover;
+    justify-content: center;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     gap: 30px;
 
 }
-.health{
+
+.health {
     color: white;
     font-size: 40px;
     font-weight: 500px;
@@ -94,9 +105,10 @@ justify-content: center;
     font-family: 'Quicksand', sans-serif;
     position: relative;
     left: 10%;
-    
+
 }
-.order{
+
+.order {
     color: black;
     font-size: 20px;
     font-weight: bold;
@@ -110,16 +122,19 @@ justify-content: center;
     position: relative;
     left: 10%;
     background-color: #E2B44B;
-    
-}
-.four{
-    background-color: black;
+
 }
 
-.this{
+.four {
+    background-color: black;
+    height: 700px;
+}
+
+.this {
     color: white;
+   
     font-size: 46px;
-    width:45%;
+    width: 45%;
     font-family: 'Advent Pro', sans-serif;
     text-align: center;
     display: flex;
@@ -127,50 +142,56 @@ justify-content: center;
     align-items: center;
     position: relative;
     left: 27%;
-padding-top: 70px;
-font-weight: 100;
+    padding-top: 70px;
+    font-weight: 100;
 
 }
-.six{
+
+.six {
     display: flex;
     padding-top: 30px;
     width: 80%;
     justify-content: center;
     text-align: center;
-   margin: 0px auto;
+    margin: 0px auto;
 }
-.seven{
-    
+
+.seven {
+
     text-align: start;
     display: flex;
     flex-direction: column;
-gap: 40px;
-    
-    
+    gap: 40px;
+
+
 }
-.is{
+
+.is {
     font-size: 36px;
     font-family: 'Advent Pro', sans-serif;
     color: #E2B44B;
-    
+
 }
-.five{
+
+.five {
     color: white;
-   
-    
+
+
 }
-.amet{
+
+.amet {
     color: white;
     text-align: start;
     display: flex;
     flex-direction: column;
-gap: 40px;
-    
+    gap: 40px;
+
     font-size: 16px;
     font-family: 'Quicksand', sans-serif;
-    
+
 }
-.pic{
+
+.pic {
     color: white;
     background-image: url(../IMAGE/about1.webp);
     height: 300px;
@@ -179,136 +200,300 @@ gap: 40px;
     background-size: cover;
 
 }
+.sabai {
 
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: center;
+   gap: 60px;
+   
+    width: 100%;
+    background-color: black;
+ 
+    
+}
+.cashmere{
+    color: white;
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 30px;
+}
+.dollar{
+    color: #E2B44B;
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 15pxs;
+}
+.video{
+    display: flex;
+    align-items: center;
+   justify-content: center;
+    background-color: black;
+    margin: 0px auto;
+    padding-top: 30px;
+}
+.food{
+    background-color: black;
+    height: 500px;
+}
+.lover{
+    color: white;
+    display: flex;
+    justify-content: center;
+  padding-top: 50px;
+    font-size: 35px;
+    font-family: 'Advent Pro', sans-serif;
+}
+.ten{
+    line-height: 40px;
+}
+.lane{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    align-items: center;
+    border-top: 1px solid rgba(255,255,255,0.2);
+  position: relative;
+  top: 15%;
+    width: 90%;
+    gap: 50px;
+    margin: 0px  auto;
+    /* background-color: red; */
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+
+}
+.svgs{
+    color: #E2B44B;
+}
+.consectetur{
+    font-size: 20px;
+}
+.wilam{
+    display: flex;
+    
+}
 
 
 
 
 /* responsive */
-@media (max-width:480px){
+@media (max-width:480px) {
 
 
-.main{
+    .main {
 
-display: flex;
-align-items: center;
+        display: flex;
+        align-items: center;
 
-}
-.one{
-    display: none;
-}
-.hamb{
-    display: flex;
-    color: black;
-    justify-content: flex-end;
-    font-size: 18px;
-    font-weight: 200px;
-    border: 2px solid gray;
-    background-color: gray;
-    
-}
+    }
 
-.two{
-    font-size: 30px;
+    .one {
+        display: none;
+    }
 
-}
-.three{
-    display: none;
-  
-   
-}
+    .hamb {
+        display: flex;
+        color: black;
+        justify-content: flex-end;
+        font-size: 18px;
+        font-weight: 200px;
+        border: 2px solid gray;
+        background-color: gray;
 
-.main2{
-    display: none;
-  
-}
-.container{
+    }
+
+    .two {
+        font-size: 30px;
+
+    }
+
+    .three {
+        display: none;
+
+
+    }
+
+    .main2 {
+        display: none;
+
+    }
+
+    .container {
 
         height: 400px;
         width: 100%;
         display: flex;
         justify-content: flex-start;
-    
-}
-.health{
-   
-    font-size: 25px;
-    font-weight: 300px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    width: 85%;
-    left: 2%;
 
-}
-.order{
-    font-size: 16px;
-    font-weight: bold;
-    border: 4px solid black;
-    width: 35%;
-    height: 12%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    left: 1%;
+    }
 
-}
-.four{
-    background-color: black;
-}
+    .health {
 
-.this{
-    
-    font-size: 26px;
-    width:70%;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    left: 15%;
+        font-size: 25px;
+        font-weight: 300px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 85%;
+        left: 2%;
+
+    }
+
+    .order {
+        font-size: 16px;
+        font-weight: bold;
+        border: 4px solid black;
+        width: 35%;
+        height: 12%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left: 1%;
+
+    }
+
+    .four {
+        background-color: black;
+    }
+
+    .this {
+
+        font-size: 26px;
+        width: 70%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left: 15%;
 
 
 
-}
-.six{
-   
+    }
+
+    .six {
+
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .seven {
+        gap: 20px;
+
+
+    }
+
+    .is {
+        font-size: 20px;
+
+
+    }
+
+    .five {
+        color: white;
+
+
+    }
+
+    .amet {
+
+        gap: 20px;
+
+        font-size: 14px;
+        font-family: 'Quicksand', sans-serif;
+
+    }
+
+    .pic {
+        color: white;
+        background-image: url(../IMAGE/about1.webp);
+        height: 200px;
+        margin-top: 30px;
+
+    }
+
+    .sabai {
+
+       
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   gap: 30px;
+    margin-bottom: 0px;
+    width: 100%;
+    padding-top: 25%;
+    }
    
-}
-.seven{
-gap: 20px;
-    
-    
-}
-.is{
-    font-size:20px;
-    
-    
-}
-.five{
-    color: white;
-   
-    
-}
-.amet{
-    
-gap: 20px;
-    
-    font-size: 14px;
-    font-family: 'Quicksand', sans-serif;
-    
-}
-.pic{
-    color: white;
-    background-image: url(../IMAGE/about1.webp);
-    height: 200px;
-   margin-top: 30px;
 
-}
+    .cashmere{
+        color: white;
+        font-family: 'Advent Pro', sans-serif;
+        font-size: 26px;
+    }
+    .dollar{
+       
+        font-size: 15px;
+    }
 
-
-
+    .video{
+        display: flex;
+        align-items: center;
+       justify-content: center;
+        background-color: black;
+        margin: 0px auto;
+    }
+    .food{
+        background-color: black;
+        height: 900px;
+    }
+    .lover{
+        color: white;
+        display: flex;
+        justify-content: center;
+      padding-top: 50px;
+        font-size: 35px;
+        font-family: 'Advent Pro', sans-serif;
+    }
+    .ten{
+        line-height: 40px;
+        border-top: 1px solid rgba(255,255,255,0.2);
+       
+        /* border-bottom: 1px solid rgba(255,255,255,0.2); */
+    }
+    .lane{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 600px;
+        
+        align-items: center;
+        
+      position: relative;
+      top: 5%;
+        width: 90%;
+        gap: 50px;
+        margin: 0px  auto;
+        /* background-color: yellow; */
+        /* border-bottom: 1px solid rgba(255,255,255,0.2); */
+    
+    }
+    .svgs{
+        color: #E2B44B;
+    
+        
+    }
+    .consectetur{
+        font-size: 20px;
+       
+    }
+    .wilam{
+        display: flex;
+        /* border-bottom: 1px solid rgba(255,255,255,0.2);  */
+        
+    }
 }
